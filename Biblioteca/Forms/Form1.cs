@@ -54,6 +54,7 @@ namespace Biblioteca
             sortStrategy.Sort(documents);
             UpdateListBox();
         }
+
         public void UpdateListBox()
         {
             listBox1.Items.Clear();
