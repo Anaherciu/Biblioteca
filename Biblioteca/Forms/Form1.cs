@@ -76,5 +76,10 @@ namespace Biblioteca
             authorTextBox.Clear();
             issueTextBox.Clear();
         }
+
+        private void authorRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

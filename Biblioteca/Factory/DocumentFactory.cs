@@ -9,8 +9,11 @@ namespace Biblioteca
 {
     internal class DocumentFactory
     {
+       
         public static Document CreateDocument<T>(string title, string author = null, int issueNumber = 0)
         {
+          
+
             if (typeof(T).Name == typeof(Book).Name)
             {
                 return new Book(title, author);

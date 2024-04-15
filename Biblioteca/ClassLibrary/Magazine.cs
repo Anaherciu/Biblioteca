@@ -8,7 +8,10 @@ namespace Biblioteca
 {
     public class Magazine : Document
     {
+        
         public int IssueNumber { get; set; }
+
+        
         public Magazine(string title, int issueNumber) : base(title)
         {
             IssueNumber = issueNumber;

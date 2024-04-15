@@ -43,26 +43,29 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Aqua;
             this.button1.Location = new System.Drawing.Point(65, 330);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(216, 59);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add Book";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Aqua;
             this.button2.Location = new System.Drawing.Point(298, 330);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(216, 59);
             this.button2.TabIndex = 1;
             this.button2.Text = "Sort Book";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // titleTextBox
             // 
+            this.titleTextBox.BackColor = System.Drawing.Color.DodgerBlue;
             this.titleTextBox.Location = new System.Drawing.Point(37, 56);
             this.titleTextBox.Name = "titleTextBox";
             this.titleTextBox.Size = new System.Drawing.Size(269, 22);
@@ -70,6 +73,7 @@
             // 
             // listBox1
             // 
+            this.listBox1.BackColor = System.Drawing.Color.DodgerBlue;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(577, 40);
@@ -80,27 +84,31 @@
             // titleRadioButton
             // 
             this.titleRadioButton.AutoSize = true;
+            this.titleRadioButton.BackColor = System.Drawing.Color.Fuchsia;
             this.titleRadioButton.Location = new System.Drawing.Point(350, 95);
             this.titleRadioButton.Name = "titleRadioButton";
             this.titleRadioButton.Size = new System.Drawing.Size(84, 20);
             this.titleRadioButton.TabIndex = 4;
             this.titleRadioButton.TabStop = true;
             this.titleRadioButton.Text = "Sort_Titlu";
-            this.titleRadioButton.UseVisualStyleBackColor = true;
+            this.titleRadioButton.UseVisualStyleBackColor = false;
             // 
             // authorRadioButton
             // 
             this.authorRadioButton.AutoSize = true;
-            this.authorRadioButton.Location = new System.Drawing.Point(344, 203);
+            this.authorRadioButton.BackColor = System.Drawing.Color.Fuchsia;
+            this.authorRadioButton.Location = new System.Drawing.Point(350, 203);
             this.authorRadioButton.Name = "authorRadioButton";
             this.authorRadioButton.Size = new System.Drawing.Size(90, 20);
             this.authorRadioButton.TabIndex = 5;
             this.authorRadioButton.TabStop = true;
             this.authorRadioButton.Text = "Sort_Autor";
-            this.authorRadioButton.UseVisualStyleBackColor = true;
+            this.authorRadioButton.UseVisualStyleBackColor = false;
+            this.authorRadioButton.CheckedChanged += new System.EventHandler(this.authorRadioButton_CheckedChanged);
             // 
             // authorTextBox
             // 
+            this.authorTextBox.BackColor = System.Drawing.Color.DodgerBlue;
             this.authorTextBox.Location = new System.Drawing.Point(37, 159);
             this.authorTextBox.Name = "authorTextBox";
             this.authorTextBox.Size = new System.Drawing.Size(269, 22);
@@ -108,6 +116,7 @@
             // 
             // issueTextBox
             // 
+            this.issueTextBox.BackColor = System.Drawing.Color.DodgerBlue;
             this.issueTextBox.Location = new System.Drawing.Point(37, 264);
             this.issueTextBox.Name = "issueTextBox";
             this.issueTextBox.Size = new System.Drawing.Size(269, 22);
@@ -144,6 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Fuchsia;
             this.ClientSize = new System.Drawing.Size(987, 538);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
